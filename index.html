@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h2>Feedback Test Form</h2>
+
+<form action="feedback" method = "post">
+<!-- <form onsubmit="SubmitTestForm()"> -->
+  <label for="user">Name:</label><br>
+  <input type="text" id="user" name="user" required><br>
+  <label for="rating">Rating:</label><br>
+  <input type="text" id="rating" name="rating" required><br>
+  <label for="comment">Comment:</label><br>
+  <input type="text" id="comment" name="comment" required><br><br>
+  <input type="submit" value="Submit" >
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+</body>
+</html>
